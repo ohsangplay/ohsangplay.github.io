@@ -11,7 +11,8 @@
   }
 
   function isExternal(url) {
-    return /^https?:\/\//i.test(url) && url.indexOf(location.host) === -1;
+    if (!/^https?:\/\//i.test(url)) return false;
+    try { return new URL(url).host !== location.host; } catch (e) { return true; }
   }
 
   function buildIcon(site) {

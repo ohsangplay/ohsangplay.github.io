@@ -38,3 +38,4 @@
 - [ ] 커스텀 도메인: Settings › Pages › Custom domain에 `ohsangplay.com` 입력 (DNS 연결 후)
 - [ ] AdSense 승인 신청 → 각 HTML `<head>`의 AdSense 주석 해제 + `ads.txt` 게시자 ID 입력
 - [ ] (선택) 사업자등록번호를 푸터에 표시하려면 주석 해제
+

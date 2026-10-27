@@ -16,6 +16,14 @@
  */
 window.OHSANG_SITES = [
   {
+    name: "상어집사",
+    description: "친수공원에 놀러 온 작은 아기 상어의 집사가 되어 먹이와 운동, 애정으로 돌보는 도트 육성 게임입니다. 상어를 얼마나 크게 키웠는지 몸길이로 겨룹니다.",
+    url: "https://shark-keeper.github.io/",
+    icon: "assets/icons/sharkkeeper.png",
+    tags: ["육성", "도트"],
+    platforms: ["android"]
+  },
+  {
     name: "4S 챌린지 - 숫자야구",
     description: "숨겨진 숫자 세 자리를 스트라이크와 볼 힌트로 추리하는 숫자야구 게임입니다.",
     url: "",

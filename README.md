@@ -34,8 +34,8 @@
 
 ## 남은 할 일
 
-- [ ] 문의 이메일 주소 확정 → 모든 HTML의 `contact@ohsangplay.com` 교체
-- [ ] 커스텀 도메인: Settings › Pages › Custom domain에 `ohsangplay.com` 입력 (DNS 연결 후)
+- [x] 문의 메일 contact@ohsangplay.com — Cloudflare Email Routing으로 Gmail 전달
+- [x] 커스텀 도메인 ohsangplay.com 연결 (GitHub Actions 배포)
 - [x] AdSense 코드 스니펫 삽입 + `ads.txt` 게시자 ID 등록 (pub-3934873497580609)
 - [ ] (선택) 사업자등록번호를 푸터에 표시하려면 주석 해제
 

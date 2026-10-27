@@ -1,3 +1,1 @@
-# ads.txt - ohsangplay.com
-# AdSense 승인 후 아래 줄의 주석(#)을 지우고 pub- 뒤를 본인 게시자 ID로 바꾸세요.
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-3934873497580609, DIRECT, f08c47fec0942fa0

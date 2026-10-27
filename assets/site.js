@@ -72,7 +72,7 @@
   function renderSites() {
     var target = document.getElementById("site-list");
     if (!target) return;
-    var sites = window.OHSANG_SITES || [];
+    var sites = (window.OHSANG_SITES || []).filter(function (s) { return !s.hidden; });
     target.textContent = "";
     if (!sites.length) {
       target.appendChild(el("p", "empty", "곧 첫 번째 작품을 소개할게요."));

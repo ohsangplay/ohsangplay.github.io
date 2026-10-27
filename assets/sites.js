@@ -12,6 +12,7 @@
  *   emoji       : 아이콘 이미지가 없을 때 쓸 이모지 (선택)
  *   tags        : 짧은 태그 목록 (선택)
  *   platforms   : "web", "android", "ios" 중 해당하는 것 (선택)
+ *   hidden      : true 로 두면 목록에 표시하지 않습니다 (선택)
  */
 window.OHSANG_SITES = [
   {
@@ -36,6 +37,7 @@ window.OHSANG_SITES = [
     url: "",
     icon: "assets/icons/yacht.svg",
     tags: ["주사위", "보드게임"],
-    platforms: ["web"]
+    platforms: ["web"],
+    hidden: true
   }
 ];

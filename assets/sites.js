@@ -26,8 +26,8 @@ window.OHSANG_SITES = [
   {
     name: "4S 챌린지 - 숫자야구",
     description: "숨겨진 숫자 네 자리를 스트라이크와 볼 힌트로 추리하는 숫자야구 게임입니다.",
-    url: "",
-    icon: "assets/icons/baseball.svg",
+    url: "https://4s-challenge.ohsangplay.com/",
+    icon: "assets/icons/fourschallenge.png",
     tags: ["퍼즐", "추리"],
     platforms: ["web", "android"]
   },

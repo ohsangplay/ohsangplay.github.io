@@ -1,0 +1,4 @@
+# app-ads.txt - ohsangplay.com
+# AdMob 계정을 만든 뒤 아래 줄의 주석(#)을 지우고 pub- 뒤를 본인 게시자 ID로 바꾸세요.
+# Google Play / App Store 개발자 웹사이트에 https://ohsangplay.com 을 등록해야 AdMob이 이 파일을 확인합니다.
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

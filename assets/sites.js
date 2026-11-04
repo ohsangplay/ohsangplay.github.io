@@ -34,7 +34,7 @@ window.OHSANG_SITES = [
   {
     name: "야추",
     description: "주사위 다섯 개로 족보를 완성하는 주사위 게임입니다. 구글 계정으로 로그인해 기록을 이어갈 수 있습니다.",
-    url: "",
+    url: "https://yahchoo.ohsangplay.com/",
     icon: "assets/icons/yacht.svg",
     tags: ["주사위", "보드게임"],
     platforms: ["web"]

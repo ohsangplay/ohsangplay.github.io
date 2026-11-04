@@ -32,20 +32,27 @@ window.OHSANG_SITES = [
     platforms: ["web", "android"]
   },
   {
-    name: "말랑영웅전",
-    description: "말랑말랑한 영웅들과 함께하는 캐주얼 게임입니다.",
-    url: "",
-    icon: "assets/icons/mallang.svg",
-    tags: ["캐주얼"],
-    platforms: ["web"]
-  },
-  {
     name: "야추",
     description: "주사위 다섯 개로 족보를 완성하는 주사위 게임입니다. 구글 계정으로 로그인해 기록을 이어갈 수 있습니다.",
     url: "",
     icon: "assets/icons/yacht.svg",
     tags: ["주사위", "보드게임"],
-    platforms: ["web"],
-    hidden: true
+    platforms: ["web"]
+  },
+  {
+    name: "한지붕 메모",
+    description: "한지붕 시리즈. 초대코드 하나로 가족과 함께 쓰는 공유 메모장입니다. 글 메모와 체크리스트를 여럿이 동시에 고쳐도 안전하게 합쳐 저장합니다.",
+    url: "https://api.ohsangplay.com/onehouse/memo/",
+    icon: "assets/icons/onehouse-memo.png",
+    tags: ["한지붕 시리즈", "공유 메모"],
+    platforms: ["android", "ios"]
+  },
+  {
+    name: "한지붕 가계부",
+    description: "한지붕 시리즈. 초대코드 하나로 가족과 함께 쓰는 공유 가계부입니다. 달력과 카테고리 필터로 한 달 지출을 한눈에 볼 수 있습니다.",
+    url: "https://api.ohsangplay.com/onehouse/budget/",
+    icon: "assets/icons/onehouse-budget.png",
+    tags: ["한지붕 시리즈", "공유 가계부"],
+    platforms: ["android", "ios"]
   }
 ];

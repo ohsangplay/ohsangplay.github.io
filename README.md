@@ -11,8 +11,7 @@
 | `contact.html` | 문의 |
 | `privacy.html` | 개인정보처리방침 (광고 쿠키·구글 로그인 포함, 스토어 등록 URL로도 사용) |
 | `terms.html` | 이용약관 |
-| `dingdong-memo.html` | 딩동메모(Windows 프로그램) 소개·다운로드 페이지 |
-| `sticky-memo.html` | 예전 주소 → `dingdong-memo.html`로 이동 |
+| `dingdong-memo.html`, `sticky-memo.html` | 예전 주소 → 딩동메모 페이지(https://osp-sticky-memo.github.io/)로 이동 |
 | `404.html` | 없는 주소 안내 |
 | `ads.txt` / `app-ads.txt` | AdSense / AdMob 게시자 ID 등록용 (승인 후 주석 해제) |
 | `robots.txt` / `sitemap.xml` | 검색 노출 |

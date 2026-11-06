@@ -67,7 +67,7 @@ window.OHSANG_SITES = [
     name: "딩동메모",
     description: "바탕화면에 붙여 두는 메모에 시간을 정해 두면, 그 시간에 화면 오른쪽 아래에 메신저처럼 "딩동" 알림이 뜨는 Windows 메모 프로그램입니다. 메모는 내 PC에만 저장됩니다.",
     url: "dingdong-memo.html",
-    icon: "assets/icons/dingdong-memo.png",
+    icon: "assets/icons/dingdong-memo.png?v=2",
     tags: ["메모", "알림"],
     platforms: ["windows"]
   }

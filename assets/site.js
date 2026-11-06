@@ -72,15 +72,18 @@
   }
 
   function renderSites() {
-    var target = document.getElementById("site-list");
-    if (!target) return;
+    var groups = document.querySelectorAll(".site-group[data-category]");
+    if (!groups.length) return;
     var sites = (window.OHSANG_SITES || []).filter(function (s) { return !s.hidden; });
-    target.textContent = "";
-    if (!sites.length) {
-      target.appendChild(el("p", "empty", "곧 첫 번째 작품을 소개할게요."));
-      return;
-    }
-    sites.forEach(function (s) { target.appendChild(buildCard(s)); });
+    groups.forEach(function (group) {
+      var cat = group.getAttribute("data-category");
+      var list = group.querySelector(".site-list");
+      var items = sites.filter(function (s) { return (s.category || "game") === cat; });
+      list.textContent = "";
+      if (!items.length) { group.hidden = true; return; }
+      group.hidden = false;
+      items.forEach(function (s) { list.appendChild(buildCard(s)); });
+    });
   }
 
   function markCurrentNav() {

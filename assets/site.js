@@ -36,12 +36,13 @@
   }
 
   function buildCard(site) {
-    var hasLink = !!(site.url && site.url.trim());
+    var href = (site.page && site.page.trim()) || (site.url && site.url.trim()) || "";
+    var hasLink = !!href;
     var card = el(hasLink ? "a" : "div", "site-card" + (hasLink ? "" : " is-pending"));
 
     if (hasLink) {
-      card.href = site.url;
-      if (isExternal(site.url)) {
+      card.href = href;
+      if (isExternal(href)) {
         card.target = "_blank";
         card.rel = "noopener";
       }
@@ -52,7 +53,7 @@
     var body = el("div", "site-body");
     var head = el("div", "site-head");
     head.appendChild(el("h3", "site-name", site.name));
-    head.appendChild(el("span", "site-status", hasLink ? "바로가기 →" : "준비 중"));
+    head.appendChild(el("span", "site-status", !hasLink ? "준비 중" : site.page ? "소개·규칙 →" : "바로가기 →"));
     body.appendChild(head);
 
     if (site.description) body.appendChild(el("p", "site-desc", site.description));

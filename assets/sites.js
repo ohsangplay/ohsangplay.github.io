@@ -12,6 +12,7 @@
  *   emoji       : 아이콘 이미지가 없을 때 쓸 이모지 (선택)
  *   tags        : 짧은 태그 목록 (선택)
  *   platforms   : "web", "android", "ios", "windows" 중 해당하는 것 (선택)
+ *   page        : ohsangplay.com 안의 게임 소개 페이지 경로 (선택). 있으면 카드가 이 페이지로 연결됩니다.
  *   hidden      : true 로 두면 목록에 표시하지 않습니다 (선택)
  */
 window.OHSANG_SITES = [
@@ -35,6 +36,7 @@ window.OHSANG_SITES = [
     name: "오늘도 야추",
     description: "주사위 다섯 개로 족보를 완성하는 주사위 게임입니다. 구글 계정으로 로그인해 기록을 이어갈 수 있습니다.",
     url: "https://yahchoo.ohsangplay.com/",
+    page: "games/yahchoo.html",
     icon: "assets/icons/yahchoo.png",
     tags: ["주사위", "보드게임"],
     platforms: ["web"]

@@ -21,7 +21,8 @@ window.OHSANG_SITES = [
     name: "상어집사",
     category: "game",
     description: "친수공원에 놀러 온 작은 아기 상어의 집사가 되어 먹이와 운동, 애정으로 돌보는 도트 육성 게임입니다. 상어를 얼마나 크게 키웠는지 몸길이로 겨룹니다.",
-    url: "https://shark-keeper.github.io/",
+    url: "https://shark-keeper.ohsangplay.com/",
+    page: "games/shark-keeper.html",
     icon: "assets/icons/sharkkeeper.png",
     tags: ["육성", "도트"],
     platforms: ["android"]
@@ -31,6 +32,7 @@ window.OHSANG_SITES = [
     category: "game",
     description: "숨겨진 숫자 네 자리를 스트라이크와 볼 힌트로 추리하는 숫자야구 게임입니다.",
     url: "https://4s-challenge.ohsangplay.com/",
+    page: "games/4s-challenge.html",
     icon: "assets/icons/fourschallenge.png",
     tags: ["퍼즐", "추리"],
     platforms: ["web", "android"]

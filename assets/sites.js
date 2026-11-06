@@ -40,6 +40,14 @@ window.OHSANG_SITES = [
     platforms: ["web"]
   },
   {
+    name: "오늘도 당구",
+    description: "4구·3구·포켓볼(8볼)을 혼자, 한 기기에서 둘이, 또는 온라인으로 치는 웹 당구 게임입니다. 당점·두께·힘에 따라 수구가 한 번 튕긴 뒤까지 경로를 보여 주는 안내선이 있습니다.",
+    url: "https://danggu.ohsangplay.com/",
+    icon: "assets/icons/danggu.svg",
+    tags: ["당구", "스포츠"],
+    platforms: ["web"]
+  },
+  {
     name: "한지붕 메모",
     description: "한지붕 시리즈. 초대코드 하나로 가족과 함께 쓰는 공유 메모장입니다. 글 메모와 체크리스트를 여럿이 동시에 고쳐도 안전하게 합쳐 저장합니다.",
     url: "https://api.ohsangplay.com/onehouse/memo/",

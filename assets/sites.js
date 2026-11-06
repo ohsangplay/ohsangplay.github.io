@@ -52,6 +52,7 @@ window.OHSANG_SITES = [
     category: "game",
     description: "4구·3구·포켓볼(8볼)을 혼자, 한 기기에서 둘이, 또는 온라인으로 치는 웹 당구 게임입니다. 당점·두께·힘에 따라 수구가 한 번 튕긴 뒤까지 경로를 보여 주는 안내선이 있습니다.",
     url: "https://danggu.ohsangplay.com/",
+    page: "games/danggu.html",
     icon: "assets/icons/danggu.svg",
     tags: ["당구", "스포츠"],
     platforms: ["web"]
@@ -61,6 +62,7 @@ window.OHSANG_SITES = [
     category: "util",
     description: "한지붕 시리즈. 초대코드 하나로 가족과 함께 쓰는 공유 메모장입니다. 글 메모와 체크리스트를 여럿이 동시에 고쳐도 안전하게 합쳐 저장합니다.",
     url: "https://api.ohsangplay.com/onehouse/memo/",
+    page: "games/onehouse-memo.html",
     icon: "assets/icons/onehouse-memo.png",
     tags: ["한지붕 시리즈", "공유 메모"],
     platforms: ["android", "ios"]
@@ -70,6 +72,7 @@ window.OHSANG_SITES = [
     category: "util",
     description: "한지붕 시리즈. 초대코드 하나로 가족과 함께 쓰는 공유 가계부입니다. 달력과 카테고리 필터로 한 달 지출을 한눈에 볼 수 있습니다.",
     url: "https://api.ohsangplay.com/onehouse/budget/",
+    page: "games/onehouse-budget.html",
     icon: "assets/icons/onehouse-budget.png",
     tags: ["한지붕 시리즈", "공유 가계부"],
     platforms: ["android", "ios"]
@@ -79,7 +82,8 @@ window.OHSANG_SITES = [
     category: "util",
     description: "바탕화면에 붙여 두는 메모에 시간을 정해 두면, 그 시간에 화면 오른쪽 아래에 메신저처럼 ‘딩동’ 알림이 뜨는 Windows 메모 프로그램입니다. 메모는 내 PC에만 저장됩니다.",
     url: "https://osp-sticky-memo.github.io/",
-    icon: "https://osp-sticky-memo.github.io/web/icon.png",
+    page: "games/dingdong-memo.html",
+    icon: "assets/icons/dingdong.png",
     tags: ["메모", "알림"],
     platforms: ["windows"]
   }

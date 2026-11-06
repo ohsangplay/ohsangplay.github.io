@@ -53,7 +53,7 @@
     var body = el("div", "site-body");
     var head = el("div", "site-head");
     head.appendChild(el("h3", "site-name", site.name));
-    head.appendChild(el("span", "site-status", !hasLink ? "준비 중" : site.page ? "소개·규칙 →" : "바로가기 →"));
+    head.appendChild(el("span", "site-status", !hasLink ? "준비 중" : site.page ? ((site.category === "util") ? "소개·사용법 →" : "소개·규칙 →") : "바로가기 →"));
     body.appendChild(head);
 
     if (site.description) body.appendChild(el("p", "site-desc", site.description));

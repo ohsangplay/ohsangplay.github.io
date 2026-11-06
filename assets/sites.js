@@ -11,7 +11,7 @@
  *                 비워 두면 emoji 또는 이름 첫 글자로 대신 표시합니다.
  *   emoji       : 아이콘 이미지가 없을 때 쓸 이모지 (선택)
  *   tags        : 짧은 태그 목록 (선택)
- *   platforms   : "web", "android", "ios" 중 해당하는 것 (선택)
+ *   platforms   : "web", "android", "ios", "windows" 중 해당하는 것 (선택)
  *   hidden      : true 로 두면 목록에 표시하지 않습니다 (선택)
  */
 window.OHSANG_SITES = [
@@ -62,5 +62,13 @@ window.OHSANG_SITES = [
     icon: "assets/icons/onehouse-budget.png",
     tags: ["한지붕 시리즈", "공유 가계부"],
     platforms: ["android", "ios"]
+  },
+  {
+    name: "스티커 메모",
+    description: "바탕화면에 붙여 두는 메모에 시간을 정해 두면, 그 시간에 화면 오른쪽 아래에 메신저처럼 알림이 뜨는 Windows 프로그램입니다. 메모는 내 PC에만 저장됩니다.",
+    url: "sticky-memo.html",
+    icon: "assets/icons/sticky-memo.png",
+    tags: ["메모", "알림"],
+    platforms: ["windows"]
   }
 ];

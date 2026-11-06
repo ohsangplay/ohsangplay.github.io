@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var PLATFORM_LABEL = { web: "웹", android: "Android", ios: "iOS" };
+  var PLATFORM_LABEL = { web: "웹", android: "Android", ios: "iOS", windows: "Windows" };
 
   function el(tag, cls, text) {
     var node = document.createElement(tag);

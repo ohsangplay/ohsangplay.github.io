@@ -11,6 +11,7 @@
 | `contact.html` | 문의 |
 | `privacy.html` | 개인정보처리방침 (광고 쿠키·구글 로그인 포함, 스토어 등록 URL로도 사용) |
 | `terms.html` | 이용약관 |
+| `sticky-memo.html` | 스티커 메모(Windows 프로그램) 소개·다운로드 페이지 |
 | `404.html` | 없는 주소 안내 |
 | `ads.txt` / `app-ads.txt` | AdSense / AdMob 게시자 ID 등록용 (승인 후 주석 해제) |
 | `robots.txt` / `sitemap.xml` | 검색 노출 |
@@ -26,7 +27,7 @@
   url: "https://yacht.ohsangplay.com",   // 비우면 "준비 중"으로 표시
   icon: "assets/icons/yacht.svg",        // 정사각형 이미지, 없으면 emoji/첫 글자
   tags: ["주사위"],
-  platforms: ["web", "android"]          // web | android | ios
+  platforms: ["web", "android"]          // web | android | ios | windows
 }
 ```
 
